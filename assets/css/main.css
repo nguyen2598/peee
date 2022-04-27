@@ -1017,6 +1017,7 @@
 
 .category-item--active .category-item__link{
     color: var(--primary-color);
+    text-transform:uppercase;
 
 }
 

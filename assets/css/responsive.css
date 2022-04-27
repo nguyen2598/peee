@@ -106,13 +106,13 @@
     }
 
     .pagination-item{
-        margin: 0 14px;
+        margin: 0 8px;
     }
 
     .pagination-item__link{
         --height:28px;
         font-size: 1.6rem;
-        min-width: 36px;
+        min-width: 28px;
         color: red;
     }
     .app__content{
