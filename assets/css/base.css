@@ -1,3 +1,31 @@
+/* cái t thêm ------------------------------------------------*/
+.modals{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+ 
+}
+.modals.open{
+    
+    display: flex;
+ 
+}
+.modal__bodys{
+    --growth-from:0.5;
+    --growth-to:1;
+    margin:  auto;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: auto;
+    position:relative;
+    z-index: 1;
+    animation: growth linear 0.6s;
+    border: 2px solid red;
+}
+/* --------------------------------------------------------------- */
 :root{
     --primary-color:#ee4d2d;
     --white-color:#fff;
